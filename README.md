@@ -53,6 +53,9 @@ import * as helpers from './utils/helpers'
 import {multiply as mp} from './utils/helpers'
 
 import './utils/helpers'
+
+helpers.multiply(5,2)
+mp(5,2)
 ```
 
 PHP
@@ -64,6 +67,9 @@ $helpers = require('./utils/helpers.php');
 ['multiply' => $mp] = require('./utils/helpers.php');
 
 require('./utils/helpers.php);
+
+$helpers['multiply'](5,2);
+$mp(5,2);
 ```
 
 More Explatnation please read:
