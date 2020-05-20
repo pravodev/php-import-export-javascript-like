@@ -1,4 +1,4 @@
-# PHP IMPORT & EXPORT FILE Javascript-like
+# PHP IMPORT & EXPORT Javascript-like
 
 After php 7.4 release, I am interested in the new feature, the arrow function. This reminds me when using javascript, I use a lot of arrow functions.
 
