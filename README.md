@@ -29,6 +29,8 @@ export {
 
 PHP
 ```
+<?php
+
 // utils/helpers.php
 
 $multiply = function($a, $b){
@@ -55,6 +57,8 @@ import './utils/helpers'
 
 PHP
 ```
+<?php
+
 $helpers = require('./utils/helpers.php');
 
 ['multiply' => $mp] = require('./utils/helpers.php');
