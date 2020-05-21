@@ -62,11 +62,11 @@ PHP
 ```
 <?php
 
-$helpers = require('./utils/helpers.php');
+$helpers = require './utils/helpers.php';
 
-['multiply' => $mp] = require('./utils/helpers.php');
+['multiply' => $mp] = require './utils/helpers.php';
 
-require('./utils/helpers.php);
+require './utils/helpers.php;
 
 $helpers['multiply'](5,2);
 $mp(5,2);

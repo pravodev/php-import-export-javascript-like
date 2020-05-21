@@ -1,6 +1,6 @@
 <?php
 
-$helpers = require('./utils/helpers.php');
+$helpers = require './utils/helpers.php';
 // is equal to
 // import * as helpers from "utils/helpers"
 
@@ -9,7 +9,7 @@ $helpers['divide'](10, 5); // 2
 
 
 
-['create_invoice_number' => $generate_code] = require('./utils/helpers.php');
+['create_invoice_number' => $generate_code] = require './utils/helpers.php';
 // is equal to
 // import { create_invoice_number as generate_code } from "utils/helpers"
 
